@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.login-container {
+  max-width: 350px;
+  margin: 80px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.login-container button {
+  padding: 8px 16px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.chat-list {
+  margin-bottom: 30px;
+}
+
+.chat-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.chat-list li {
+  margin-bottom: 8px;
+}
+
+.chat-list button {
+  padding: 6px 12px;
+  margin-right: 5px;
+}
+
+.chat-room {
+  margin-bottom: 20px;
+}
+
+.chat-room-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chat-messages {
+  min-height: 250px;
+  max-height: 300px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.chat-message {
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-message.own {
+  background: #d1ffd1;
+  align-items: flex-end;
+}
+
+.sender {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.timestamp {
+  font-size: 0.8em;
+  color: #888;
+  margin-left: 8px;
+}
+
+.read-by {
+  font-size: 0.7em;
+  color: #4caf50;
+  margin-top: 2px;
+}
+
+.typing-indicator {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.online-users {
+  font-size: 0.9em;
+  color: #2196f3;
+  margin-bottom: 10px;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.message-input input {
+  flex: 1;
+  padding: 8px;
+}
+
+.message-input button {
+  padding: 6px 12px;
+}
+
+.emoji-picker {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.emoji-preview {
+  font-size: 1.5em;
+  margin-left: 8px;
+} 
